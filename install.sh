@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PLUGIN_ID="omarchy.penguine-network"
+PLUGIN_ID="penguine-network"
 REPO="https://github.com/sudo-WearTherinG/penguine.network.git"
 
 echo "Installing $PLUGIN_ID..."
