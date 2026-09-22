@@ -10,8 +10,8 @@ import "Model.js" as Model
 
 Panel {
   id: root
-  moduleName: "omarchy.penguine-network"
-  target: "omarchy.penguine-network"
+  moduleName: "penguine-network"
+  target: "penguine-network"
   // manageIpc: false so this panel can own the single IpcHandler the target
   // permits — needed for the toggleNetwork method below.
   manageIpc: false
@@ -241,7 +241,7 @@ readonly property var connectedWifiNetwork: findConnectedWifiNetwork()
 
   // Collapsing the pills out from under the cursor would leave it pointing at
   // nothing, so send it up to the switch that is still on screen.
-  onBandPillsVisibleChanged: {omarchy.penguine-network
+  onBandPillsVisibleChanged: {penguine-network
     if (!bandPillsVisible) bandAutoFocused = true
   }
 
@@ -262,7 +262,7 @@ readonly property var connectedWifiNetwork: findConnectedWifiNetwork()
   }
 
   IpcHandler {
-    ipcTarget: "omarchy.penguine-network"
+    ipcTarget: "penguine-network"
 
     function open() { root.open() }
     function close() { root.close() }
