@@ -6,7 +6,7 @@ REPO="https://github.com/sudo-WearTherinG/penguine.network.git"
 
 echo "Installing $PLUGIN_ID..."
 
-omarchy plugin add "$REPO" --enable
+omarchy plugin add "$REPO" --enable --yes
 omarchy restart shell
 
 echo "Installed $PLUGIN_ID successfully."
