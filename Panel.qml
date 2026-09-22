@@ -241,7 +241,7 @@ readonly property var connectedWifiNetwork: findConnectedWifiNetwork()
 
   // Collapsing the pills out from under the cursor would leave it pointing at
   // nothing, so send it up to the switch that is still on screen.
-  onBandPillsVisibleChanged: {penguine-network
+  onBandPillsVisibleChanged: {
     if (!bandPillsVisible) bandAutoFocused = true
   }
 
