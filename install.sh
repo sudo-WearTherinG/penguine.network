@@ -15,6 +15,7 @@ else
     git clone "$REPO" "$PLUGIN_DIR"
 fi
 
+omarchy-shell shell rescanPlugins
 omarchy plugin enable "$PLUGIN_ID"
 omarchy restart shell
 
