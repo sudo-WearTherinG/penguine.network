@@ -1,88 +1,41 @@
 # Penguine Network
 
-A network manager widget for Omarchy, based on `omarchy.network`.
+A cleaner, extended network widget for **Omarchy**.
+
+Penguine Network started because I needed to use **multiple Wi-Fi adapters on my laptop**, something the original Omarchy network widget didn't handle the way I needed. I modified it into a cleaner UI with proper multi-adapter controls while keeping the Omarchy workflow familiar.
 
 ## Features
 
-* Wi-Fi network list and connection status
 * Multiple Wi-Fi adapter support
-* Per-adapter ON/OFF switches
-* Rescan available networks by pressing **`r`** while the Wi-Fi UI is open
+* Per-adapter enable/disable switches
+* Wi-Fi network scanning and connection management
+* Press **`r`** while the Wi-Fi UI is open to rescan networks
 * Forget saved Wi-Fi networks
+* Wi-Fi signal indicators
 * Ethernet status
-* Wi-Fi signal icons
-* QR code for the connected Wi-Fi
+* Wi-Fi QR code
 * Speed test
-* Automatically replaces `omarchy.network`
 
-## Install
-
-Run:
+## Installation
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/sudo-WearTherinG/penguine.network/main/install.sh | bash
 ```
 
-The installer disables the original `omarchy.network`, installs and enables Penguine Network, places it after Bluetooth on the bar, and restarts the shell.
+The installer disables the original `omarchy.network`, installs Penguine Network, places it on the bar, and restarts the shell.
 
-Check:
+## Known Issue
 
-```bash
-omarchy plugin list
-```
+**Bar position:** Omarchy may occasionally move the network widget to another position on the bar.
 
-You should see:
-
-```text
-omarchy.network       disabled
-penguine.network      enabled
-```
-
-## Wi-Fi Controls
-
-Open the Wi-Fi UI to manage networks.
-
-### Rescan Networks
-
-Press:
-
-```text
-r
-```
-
-while the Wi-Fi UI is open to rescan available networks.
-
-### Multiple Wi-Fi Adapters
-
-If multiple Wi-Fi adapters are available, each adapter has its own switch.
-
-You can turn individual adapters **ON or OFF** without disabling the others.
-
-### Forget a Network
-
-Select a saved Wi-Fi network and use the **Forget Network** option to remove its saved connection.
-
-## Bar Icon Moving Issue
-
-Sometimes Omarchy may move the network widget to a different position on the bar.
-
-To put it back after Bluetooth:
+Restore it with:
 
 ```bash
 omarchy bar move penguine.network --section right --after omarchy.bluetooth
 omarchy restart shell
 ```
 
-If Bluetooth is unavailable:
-
-```bash
-omarchy bar move penguine.network --section right
-omarchy restart shell
-```
-
 ## Uninstall
-
-Run:
 
 ```bash
 omarchy plugin disable penguine.network
@@ -93,8 +46,6 @@ omarchy restart shell
 
 This removes Penguine Network and restores the original Omarchy network widget.
 
-## GitHub
+## License
 
-Repository:
-
-https://github.com/sudo-WearTherinG/penguine.network
+Based on the original `omarchy.network` widget and modified for Penguine Network.
