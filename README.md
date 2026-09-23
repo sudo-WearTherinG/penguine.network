@@ -6,17 +6,47 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
 
 ## Preview
 
+## Preview
+
 <table>
   <tr>
-    <td><img src="assets/single-adapter-UI.png" alt="Single Adapter UI" width="400"></td>
-    <td><img src="assets/two-adapter-UI.png" alt="Two Adapter UI" width="400"></td>
-    
+    <td>
+      <img
+        src="assets/single-adapter-UI.png"
+        alt="Single Adapter UI"
+        title="Single Adapter UI"
+        width="400"
+      >
+    </td>
+    <td>
+      <img
+        src="assets/two-adapter-UI.png"
+        alt="Two Adapter UI"
+        title="Two Adapter UI"
+        width="400"
+      >
+    </td>
   </tr>
   <tr>
-    <td><img src="assets/adapter-picker.UI.png" alt="Adapter Picker" width="400"></td>
-    <td><img src="assets/switched-adapter.UI.png" alt="Switched Adapter UI" width="400"></td>
+    <td>
+      <img
+        src="assets/adapter-picker.UI.png"
+        alt="Adapter Picker"
+        title="Adapter Picker"
+        width="400"
+      >
+    </td>
+    <td>
+      <img
+        src="assets/switched-adapter.UI.png"
+        alt="Switched Adapter UI"
+        title="Switched Adapter UI"
+        width="400"
+      >
+    </td>
   </tr>
 </table>
+
 
 ## Features
 
