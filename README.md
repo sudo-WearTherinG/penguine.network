@@ -10,7 +10,7 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
   <tr>
     <td>
       <img
-        src="assets/single-adapter-UI.png"
+        src="assets/single-adapter.UI.png"
         alt="Single Adapter UI"
         title="Single Adapter UI"
         width="400"
@@ -18,7 +18,7 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
     </td>
     <td>
       <img
-        src="assets/two-adapter-UI.png"
+        src="assets/two-adapter.UI.png"
         alt="Two Adapter UI"
         title="Two Adapter UI"
         width="400"
@@ -44,6 +44,7 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
     </td>
   </tr>
 </table>
+
 
 
 ## Features
