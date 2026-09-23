@@ -3,7 +3,7 @@
   "id": "penguine.network",
   "name": "Penguine Network",
   "version": "1.0.0",
-  "author": "Omarchy",
+  "author": "sudo-WearTherinG",
   "description": "Wi-Fi list and connection state",
   "kinds": [
     "bar-widget"
