@@ -4,15 +4,26 @@ A cleaner, extended network widget for **Omarchy**.
 
 Penguine Network started because I needed to use **multiple Wi-Fi adapters on my laptop**, something the original Omarchy network widget didn't handle the way I needed. I modified it into a cleaner UI with proper multi-adapter controls while keeping the Omarchy workflow familiar.
 
+## Preview
+
+![Single Adapter UI](assets/single-adapter-UI.png)
+
+![Adapter Picker](assets/adapter-picker.UI.png)
+
+![Two Adapter UI](assets/two-adapter-UI.png)
+
+![Switched Adapter UI](assets/switched-adapter.UI.png)
+
 ## Features
 
-* Multiple Wi-Fi adapter support
-* Per-adapter enable/disable switches
-* Wi-Fi network scanning and connection management
-* Re-scan nearby networks** quickly scan for available Wi-Fi networks
-* Press **`r`** while the Wi-Fi UI is open to rescan networks
-* Forget saved Wi-Fi networks
+* **Multiple Wi-Fi adapters** — support for multiple Wi-Fi adapters with automatic adapter controls when more than one is detected.
+* **Per-adapter controls** — enable or disable individual Wi-Fi adapters independently.
+* **Wi-Fi network scanning** — scan for nearby Wi-Fi networks and connect to available networks.
+* **Re-scan nearby networks** — quickly scan for available Wi-Fi networks.
+* **Keyboard shortcut** — press **`r`** while the Wi-Fi UI is open to rescan networks.
+* **Forget saved networks** — remove saved Wi-Fi networks.
 * Wi-Fi signal indicators
+* Ethernet status
 * Wi-Fi QR code
 * Speed test
 
