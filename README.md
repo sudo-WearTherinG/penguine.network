@@ -6,8 +6,6 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
 
 ## Preview
 
-## Preview
-
 <table>
   <tr>
     <td>
