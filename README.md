@@ -64,4 +64,9 @@ This removes Penguine Network and restores the original Omarchy network widget.
 
 ## License
 
-Based on the original `omarchy.network` widget and modified for Penguine Network.
+Penguine Network is licensed under the MIT License.
+
+See [LICENSE](LICENSE).
+
+This plugin is based on the original `omarchy.network` widget and modified for Penguine Network.
+
