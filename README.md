@@ -45,10 +45,7 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
   </tr>
 </table>
 
-
-
 ## Features
-
 
 * **Multiple Wi-Fi adapters** — support for multiple Wi-Fi adapters with automatic adapter controls when more than one is detected.
 * **Per-adapter controls** — enable or disable individual Wi-Fi adapters independently.
@@ -63,11 +60,13 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
 
 ## Installation
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/sudo-WearTherinG/penguine.network/main/install.sh | bash
-```
+Clone the repository and install the plugin locally:
 
-The installer disables the original `omarchy.network`, installs Penguine Network, places it on the bar, and restarts the shell.
+```bash
+git clone https://github.com/sudo-WearTherinG/penguine.network.git
+cd penguine.network
+omarchy plugin add "$PWD" --enable --yes
+```
 
 ## Known Issue
 
@@ -98,4 +97,3 @@ Penguine Network is licensed under the MIT License.
 See [LICENSE](LICENSE).
 
 This plugin is based on the original `omarchy.network` widget and modified for Penguine Network.
-
