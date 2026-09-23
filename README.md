@@ -9,10 +9,10 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
 * Multiple Wi-Fi adapter support
 * Per-adapter enable/disable switches
 * Wi-Fi network scanning and connection management
+* Re-scan nearby networks** quickly scan for available Wi-Fi networks
 * Press **`r`** while the Wi-Fi UI is open to rescan networks
 * Forget saved Wi-Fi networks
 * Wi-Fi signal indicators
-* Ethernet status
 * Wi-Fi QR code
 * Speed test
 
