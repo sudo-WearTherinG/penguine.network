@@ -6,15 +6,20 @@ Penguine Network started because I needed to use **multiple Wi-Fi adapters on my
 
 ## Preview
 
-![Single Adapter UI](assets/single-adapter-UI.png)
-
-![Adapter Picker](assets/adapter-picker.UI.png)
-
-![Two Adapter UI](assets/two-adapter-UI.png)
-
-![Switched Adapter UI](assets/switched-adapter.UI.png)
+<table>
+  <tr>
+    <td><img src="assets/single-adapter-UI.png" alt="Single Adapter UI" width="400"></td>
+    <td><img src="assets/two-adapter-UI.png" alt="Two Adapter UI" width="400"></td>
+    
+  </tr>
+  <tr>
+    <td><img src="assets/adapter-picker.UI.png" alt="Adapter Picker" width="400"></td>
+    <td><img src="assets/switched-adapter.UI.png" alt="Switched Adapter UI" width="400"></td>
+  </tr>
+</table>
 
 ## Features
+
 
 * **Multiple Wi-Fi adapters** — support for multiple Wi-Fi adapters with automatic adapter controls when more than one is detected.
 * **Per-adapter controls** — enable or disable individual Wi-Fi adapters independently.
